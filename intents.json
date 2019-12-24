@@ -1,12 +1,68 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "patterns": ["Hi",
+		 "How are you",
+		 "Is anyone there?", 
+		 "Hello", 
+		 "Good day", 
+		 "Whats up", 
+		 "hey there",
+		 "Hey there ..!!!",
+		 "Hiiii",
+		 "hello",
+		 "how are you?",
+		 "goodday...!!!",
+		 "hey bot",
+		 "Whats going on",
+		 "hey brother",
+		 "WasUp",
+		 "whats up",
+		 "anyone?",
+		 "Good morning.",
+		 "hey bot",
+		 "Good afternoon.",
+		 "Good afternoon",
+		 "Good Morning",
+		 "good morning",
+		 "Good evening.",
+		 "What’s happening",
+		 "Yo!",
+		 "Good evening",
+		 "Morning!",
+		 "How are things?",
+		 "What’s new?",
+		 "It’s good to see you.",
+		 "G’day!",
+		 "What’s up?",
+		 "How’s it going?"
+		 "Sup?"
+		 "evening",
+		 "afternoon",
+		 "morning",
+		 "It’s nice to meet you.",
+		 "It’s a pleasure to meet you."]
+		 
+         "responses": ["Hello!",
+		 "Oh, just the usual.",
+		 "Oh gosh, all kinds of stuff !",
+		 "yo!", 
+		 "Good to see you again!", 
+		 "Hi there, how can I help?",
+		 "Pleased to meet you",
+		 "Hi",
+		 "Hey..!!!",
+		 "Yeah Listenning",
+		 "Hola...!!!",
+		 "hola",
+		 "Hello"],
          "context_set": ""
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day",
+		 "see you, goodbye..!!!",
+		 "by bye",
+		 "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","meet you soon.","adios..!!!","Nice to talk with you"],
          "context_set": ""
         },
         {"tag": "age",
@@ -14,19 +70,63 @@
          "responses": ["I am 18 years old!", "18 years young!"],
          "context_set": ""
         },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+		{"tag": "FeeFreshDrivingLicence",
+         "patterns": ["What is the amount of Fees payable for Issueing Fresh Driving Licence ?", "Fees for Issueing Fresh Driving Licence ?",
+		 "Fresh Driving Licence Fees?",
+		 "Fees New Driving Licence ?",
+		 "Cost of new licence",
+		 "How much for new licence",
+		 "How much rupees for new licence",
+		 "How much i have to pay to get new licence",
+		 "Fees for new driving licence",
+		 "New Licence fees",
+		 "How much shall i pay for new Licence?",
+		 "Payable amount for new licence",
+		 ],
+         "responses": ["Rs. 200/- Smart Card Type Driving Licence	Rs. 50/- Towards Driving Test.", 
+		 "200 rupees for Driving Licence Card	50 rupees for Driving Test."],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "WhatDrivingTest",
+         "patterns": ["What is Driving Test?", "What is Driving Test", "What's Driving Test" , "Tell me something about Driving Test",
+		 "what do you mean by Driving test?","what do you mean by driving test","What is Driving Test?","Explain Driving Test."],
+         "responses": ["The Inspector of motor vehicles will conduct the test of competence to drive vehicle 
+		 as per the procedures laid down under the rule 15 of Central Motor Vehicle Rules, 1989.
+		 After satisfaction about the driving skills he will pass his recommendations about the issue of driving licence.
+		 The Asst. R.T.O. after satisfying himself will pass an order to issue driving licence."],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+        {"tag": "ValidityDrivingLicence",
+         "patterns": ["What is period of validity of Driving Licence ?", "What is time of validity of Driving Licence ?",
+		 "For what time my licence is valid?", "Validity of my licence","Validity of my licence is for what time"],
+         "responses": [">> A licence to drive a non transport vehicle shall be effective for a period of 20 yrs. from the date of issue or renewal or the holder attains the age of 50 yrs., whichever is earlier, after that the licence is renewable for 5 years.
+	>> Licence to drive a transport vehicle be effective for a period of three years from the date of its issue.
+	>> An authorization of licence to drive a transport vehicle carrying goods of dangerous or Hazardous nature be effective for one year."],
+         "context_set": ""
+        },
+        {"tag": "MedicalCertificateLearnerLicence",
+         "patterns": ["Is it compulsory to have a medical certificate for obtaining a learner's licence?",
+		 "when do i need medical cetificate for getting learning licence?",
+		 "when do i need medical cetificate for obtaining learning licence?",
+		 "do i need medical cetificate for obtaining learning licence?",
+		 "should i have medical cetificate for obtaining learning licence?",
+		 "I need medical cetificate for obtaining learning licence?",
+		 "Is it required to have medical cetificate for obtaining learning licence?"],
+		 
+		 
+         "responses": ["An applicant for the grant of a non transport vehicle driving licence under the age of 50 years do not require a medical certificate. However, those applicants who are over 50 yrs. of age must produce a medical certificate in Form - 1A.
+All applicants for the grant of driving licence to drive transport vehicle are required to produce a medical certificate."],
+         "context_set": ""
+        }
+		{"tag": "AgeLearnerLicence",
+         "patterns": ["what age can i get learners licence?",
+		 "At what age do we get our driving licence?",
+		 "At what age on can get his licence",
+		 ""],
+		 
+		 
+         "responses": ["An applicant for the grant of a non transport vehicle driving licence under the age of 50 years do not require a medical certificate. However, those applicants who are over 50 yrs. of age must produce a medical certificate in Form - 1A.
+All applicants for the grant of driving licence to drive transport vehicle are required to produce a medical certificate."],
          "context_set": ""
         }
    ]
