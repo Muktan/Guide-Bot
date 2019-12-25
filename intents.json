@@ -1,5 +1,4 @@
-{
-	"intents": [
+{"intents": [
 	  {
 		"tag": "greeting",
 		"patterns": [
@@ -397,5 +396,159 @@
 		],
 		"context_set": ""
 	  }
+    {
+			"tag": "AadharCard",
+			"patterns": [
+				"Does linking my bank account, PAN, and other services with Aadhaar make me vulnerable?",
+				"Linking Aadhar Card makes me vulnerable?",
+				"Problems in making linking Aadhar Card to other services"
+			],
+			"responses": [
+				"No. As your bank information is not shared by the bank with anyone else, no one can have information about your bank account just by knowing your Aadhaar number."
+			]
+		},
+		{
+			"tag": "mAadhaarCard",
+			"patterns": [
+				"Does mAadhar works on rooted devices?",
+				"Rooted devices and Aadhar Card",
+				"Rooted devices and mAadhar Card"
+			],
+			"responses": [
+				"mAadhaar does not works on rooted devices."
+			]
+		},
+		{
+			"tag": "LinkAadhar",
+			"patterns": [
+				"Is it necessary to link bank account with Aadhaar?",
+				"Is it compulsory to link bank account with Aadhaar?",
+				"Is it mandatory to link bank account with Aadhaar?"
+			],
+			"responses": "As per gazette notification of Ministry of Finance, dated 1st June 2017, Individuals are required to provide Aadhaar number for linking all their bank accounts before 31st Dec 2017."
+		},
+		{
+			"tag": "SubmitAadhar",
+			"patterns": [
+				"Is it necessary to submit Aadhaar in Bank while transaction amount is INR 50,000 or above?",
+				"Transaction amount is 50000 rs. Is it necessary to submit to Aadhar in Bank?",
+				"Transaction amount is more than 50000 rs. Is it necessary to submit to Aadhar in Bank?"
+			],
+			"responses": [
+				"As per gazette notification of Ministry of Finance, dated 1st June 2017, Aadhaar will be sought for all transactions for an amount INR 50,000 or above."
+			]
+		},
+		{
+			"tag": "eAadharNotAccepted",
+			"patterns": [
+				"Service Provider not accepting e-Aadhaar copy. What to do?",
+				"Is e-Aadhar card valid at service provider",
+				"Service Provider not accepting e-Aadhaar copy",
+				"Is Aadhar card valid at Service Provider?"
+			],
+			"responses": [
+				"Downloaded Aadhaar or e-Adhaar carries Name, Address, Gender, Photo and Date of Birth details of the Aadhaar holder in similar form as in Printed Aadhaar letter. The e-Aadhaar also contains date of Aadhaar generation & date of e-Aadhaar download. The downloaded Aadhaar or e-Aadhaar is a digitally signed document by UIDAI as per IT Act, 2000 which provides for legal recognition of electronic records with digital signatures."
+			]
+		},
+		{
+			"tag": "GiveUpAadhar",
+			"patterns": [
+				"Can I give up my Aadhar?",
+				"Give uo Aadhar",
+				"Leave Aadhar"
+			],
+			"responses" : [
+				"Presently there is no Policy to give up Aadhaar. However Aadhaar holders can secure their Biometric Authentication as per need by locking or unlocking Biometrics using 'Lock/Unlock Biometrics' functionality at UIDAI official website"
+			]
+		},
+		{
+			"tag" : "NRIAadhar",
+			"patterns" : [
+				"Can NRIs also get Aadhaar?",
+				"I'm a NRI. Can I also get Aadhar?",
+				"NRI's Aadhar"
+			],
+			"responses" : [
+				"As per the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016, only a resident who has resided in India for a period or periods amounting in all to 182 or more in the 12 months immediately preceding the date of application for enrolment."
+			]
+		},
+		{
+			"tag" : "PANandAadhar",
+			"patterns" : [
+				"Will my PAN become non-functional if I do not link it to Aadhaar?",
+				"What will happen to PAN if I link Aadhar",
+				"What will happen to PAN if I do not link Aadhar"
+			],
+			"responses" : [
+				"UIDAI only issues Aadhaar and provides means to authenticate the same. For any product or scheme related queries, we request you to please get in touch with respective product/scheme owner."
+			]
+		},
+		{
+			"tag" : "RationandAadhar",
+			"patterns" : [
+				"How to update my Aadhaar in ration card?",
+				"I have a ration card. How do I update my Aadhar card in that?",
+				"How do I link my Aadhar in ration card?",
+				"Update Aadhar in ration"
+			],
+			"responses" : [
+				"We recommend that you submit a photocopy of your Aadhaar with a copy of ration card to your PDS shop. They may ask you to place a finger on a sensor to authenticate to check that you and your Aadhaar number are matched."
+			]
+		},
+		{
+			"tag" : "ApplyforAadhar",
+			"patterns" : [
+				"How do I apply for Aadhar?",
+				"What to do to create my Aadhar?",
+				"Whom to go to create my Aadhar?",
+				"Create my Aadhar",
+				"Aplly for Aadhar"
+			],
+			"responses" : [
+				"You can apply for Aadhaar by filling up application for Allotment of Unique Identification Number or Aadhaar Number."
+			]
+		},
+		{
+			"tag" : "AadharEnrollment",
+			"patterns" : [
+				"How is Aadhar Enrollment done?",
+				"Enrollment in Aadhar",
+				"Aadhar Enrollment"
+			],
+			"responses" : [
+				"Enrolment of Residents is done by capturing their Demographic and Biometric data."
+			]
+		},
+		{
+			"tag" : "DocumentsinAadhar",
+			"patterns" : [
+				"What are the documents required in Aadhar?",
+				"Documents to submit Aadhar",
+				"Documents to enroll Aadhar",
+				"Documents for apply in Aadhar"
+			]
+		},
+		{
+			"tag" : "AadharReceiveTime",
+			"patterns" : [
+				"How long does it take to receive the Aadhar card?",
+				"How long does it take to receive my Aadhar card?",
+				"Time taken to get Aadhar card after submitting",
+			],
+			"responses" : [
+				"After receiving your application, the data will be verified centrally and on successful verification of the data, Aadhaar number will be sent to your address through post. It can take up to 90 days (3 months) for the Aadhaar card to be sent to you."
+			]
+		},
+		{
+			"tag" : "UpdateDetailsWhich",
+			"patterns" : [
+				"What all Aadhar details can I update?",
+				"I enetered wrong details. How do I update my Aadhar?",
+				"I want to update details in Aadhar. How do I do that?"
+			],
+			"responses" : [
+				"Generally, the address, name, date of birth, gender, mobile no. and email id details in your Aadhaar card can be updated or corrected."
+			]
+		}
 	]
   }
