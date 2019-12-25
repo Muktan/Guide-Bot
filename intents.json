@@ -120,13 +120,62 @@ All applicants for the grant of driving licence to drive transport vehicle are r
         }
 		{"tag": "AgeLearnerLicence",
          "patterns": ["what age can i get learners licence?",
-		 "At what age do we get our driving licence?",
-		 "At what age on can get his licence",
-		 ""],
-		 
-		 
-         "responses": ["An applicant for the grant of a non transport vehicle driving licence under the age of 50 years do not require a medical certificate. However, those applicants who are over 50 yrs. of age must produce a medical certificate in Form - 1A.
-All applicants for the grant of driving licence to drive transport vehicle are required to produce a medical certificate."],
+		 "At what age do we get our Learner licence?",
+		 "At what age on can get his learner licence?",
+		 "what age can we get learner licence?",
+		 "which age i can get my learner licence?",
+		 "what age will i get learner licence",
+		 "what age will i get learning licence",
+		 "what age can i get learning licence?",
+		 "At what age do we get our learning licence?",
+		 ],
+         "responses": [">>	The applicant shall have attaining the age of 16 years in case of motor cycle with engine capacity not exceeding 50 cc (motor cycle without gear).
+>>	The consent/declaration of the parents/guardian is necessary and shall be signed before the Licencing authority.
+>>	The applicant shall have completed the age of 18 years in case of motor cycle with gear or light motor vehicle.
+>>	In case of transport vehicles one year driving experience of light motor vehicle.
+>>	Medical certificate in Form CMV 1 and 1A is necessary in case of transport vehicle."],
+         "context_set": ""
+        }
+		{"tag": "ValidityLearnerLicence",
+         "patterns": ["what is validity of learners licence?",
+		 "Period Learner licence is valid?",
+		 "For what time learner licence is valid?",
+		 "After what time learners licence expires?",
+		 "Validity of learner licence",
+		 "is learner licence valid for 6 months",
+		 "is learner licence valid for 3 months",
+		 "is learner licence valid for 4 months",
+		 "when to renew my learning licence",
+		 "what age will i get learning licence",
+		 "what age can i get learning licence?",
+		 "At what age do we get our learning licence?",
+		 ],
+         "responses": ["Learner's licence is valid for the period of 6 Months."],
+         "context_set": ""
+        }
+		{"tag": "AboutPreliminaryTest",
+         "patterns": ["What is Preliminary test?",
+		 "About Preliminary test",
+		 "What's Preliminary Test" , "Tell me something about Preliminary Test",
+		 "what do you mean by Preliminary test?","what do you mean by Preliminary test","What is Preliminary Test?",
+		 "Explain Preliminary Test."
+		 ],
+         "responses": ["Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type.
+		>>	In case of others, Oral test will be conducted.
+		>>	These tests will be conducted by the Inspector of Motor Vehicles.
+		>>	Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."],
+         "context_set": ""
+        }
+		{"tag": "SyllabusPreliminaryTest",
+         "patterns": ["What is Syllabus of Preliminary test?",
+		 "Subjects in Preliminary test",
+		 "What is the Subject in the Preliminary Test ?" , "whicch subjects are asked in Priliminary test",
+		 "syllabus for learners driving licence test",		 "Syllabus of Preliminary test"
+		 ],
+         "responses": ["Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type.
+		>>	In case of others, Oral test will be conducted.
+		>>	These tests will be conducted by the Inspector of Motor Vehicles.
+		>>	Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."],
          "context_set": ""
         }
    ]
