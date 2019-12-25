@@ -1,182 +1,244 @@
-{"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi",
-		 "How are you",
-		 "Is anyone there?", 
-		 "Hello", 
-		 "Good day", 
-		 "Whats up", 
-		 "hey there",
-		 "Hey there ..!!!",
-		 "Hiiii",
-		 "hello",
-		 "how are you?",
-		 "goodday...!!!",
-		 "hey bot",
-		 "Whats going on",
-		 "hey brother",
-		 "WasUp",
-		 "whats up",
-		 "anyone?",
-		 "Good morning.",
-		 "hey bot",
-		 "Good afternoon.",
-		 "Good afternoon",
-		 "Good Morning",
-		 "good morning",
-		 "Good evening.",
-		 "What’s happening",
-		 "Yo!",
-		 "Good evening",
-		 "Morning!",
-		 "How are things?",
-		 "What’s new?",
-		 "It’s good to see you.",
-		 "G’day!",
-		 "What’s up?",
-		 "How’s it going?"
-		 "Sup?"
-		 "evening",
-		 "afternoon",
-		 "morning",
-		 "It’s nice to meet you.",
-		 "It’s a pleasure to meet you."]
-		 
-         "responses": ["Hello!",
-		 "Oh, just the usual.",
-		 "Oh gosh, all kinds of stuff !",
-		 "yo!", 
-		 "Good to see you again!", 
-		 "Hi there, how can I help?",
-		 "Pleased to meet you",
-		 "Hi",
-		 "Hey..!!!",
-		 "Yeah Listenning",
-		 "Hola...!!!",
-		 "hola",
-		 "Hello"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day",
-		 "see you, goodbye..!!!",
-		 "by bye",
-		 "bye"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","meet you soon.","adios..!!!","Nice to talk with you"],
-         "context_set": ""
-        },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
-         "context_set": ""
-        },
-		{"tag": "FeeFreshDrivingLicence",
-         "patterns": ["What is the amount of Fees payable for Issueing Fresh Driving Licence ?", "Fees for Issueing Fresh Driving Licence ?",
-		 "Fresh Driving Licence Fees?",
-		 "Fees New Driving Licence ?",
-		 "Cost of new licence",
-		 "How much for new licence",
-		 "How much rupees for new licence",
-		 "How much i have to pay to get new licence",
-		 "Fees for new driving licence",
-		 "New Licence fees",
-		 "How much shall i pay for new Licence?",
-		 "Payable amount for new licence",
-		 ],
-         "responses": ["Rs. 200/- Smart Card Type Driving Licence	Rs. 50/- Towards Driving Test.", 
-		 "200 rupees for Driving Licence Card	50 rupees for Driving Test."],
-         "context_set": ""
-        },
-        {"tag": "WhatDrivingTest",
-         "patterns": ["What is Driving Test?", "What is Driving Test", "What's Driving Test" , "Tell me something about Driving Test",
-		 "what do you mean by Driving test?","what do you mean by driving test","What is Driving Test?","Explain Driving Test."],
-         "responses": ["The Inspector of motor vehicles will conduct the test of competence to drive vehicle 
-		 as per the procedures laid down under the rule 15 of Central Motor Vehicle Rules, 1989.
-		 After satisfaction about the driving skills he will pass his recommendations about the issue of driving licence.
-		 The Asst. R.T.O. after satisfying himself will pass an order to issue driving licence."],
-         "context_set": ""
-        },
-        {"tag": "ValidityDrivingLicence",
-         "patterns": ["What is period of validity of Driving Licence ?", "What is time of validity of Driving Licence ?",
-		 "For what time my licence is valid?", "Validity of my licence","Validity of my licence is for what time"],
-         "responses": [">> A licence to drive a non transport vehicle shall be effective for a period of 20 yrs. from the date of issue or renewal or the holder attains the age of 50 yrs., whichever is earlier, after that the licence is renewable for 5 years.
-	>> Licence to drive a transport vehicle be effective for a period of three years from the date of its issue.
-	>> An authorization of licence to drive a transport vehicle carrying goods of dangerous or Hazardous nature be effective for one year."],
-         "context_set": ""
-        },
-        {"tag": "MedicalCertificateLearnerLicence",
-         "patterns": ["Is it compulsory to have a medical certificate for obtaining a learner's licence?",
-		 "when do i need medical cetificate for getting learning licence?",
-		 "when do i need medical cetificate for obtaining learning licence?",
-		 "do i need medical cetificate for obtaining learning licence?",
-		 "should i have medical cetificate for obtaining learning licence?",
-		 "I need medical cetificate for obtaining learning licence?",
-		 "Is it required to have medical cetificate for obtaining learning licence?"],
-		 
-		 
-         "responses": ["An applicant for the grant of a non transport vehicle driving licence under the age of 50 years do not require a medical certificate. However, those applicants who are over 50 yrs. of age must produce a medical certificate in Form - 1A.
-All applicants for the grant of driving licence to drive transport vehicle are required to produce a medical certificate."],
-         "context_set": ""
-        }
-		{"tag": "AgeLearnerLicence",
-         "patterns": ["what age can i get learners licence?",
-		 "At what age do we get our Learner licence?",
-		 "At what age on can get his learner licence?",
-		 "what age can we get learner licence?",
-		 "which age i can get my learner licence?",
-		 "what age will i get learner licence",
-		 "what age will i get learning licence",
-		 "what age can i get learning licence?",
-		 "At what age do we get our learning licence?",
-		 ],
-         "responses": [">>	The applicant shall have attaining the age of 16 years in case of motor cycle with engine capacity not exceeding 50 cc (motor cycle without gear).
->>	The consent/declaration of the parents/guardian is necessary and shall be signed before the Licencing authority.
->>	The applicant shall have completed the age of 18 years in case of motor cycle with gear or light motor vehicle.
->>	In case of transport vehicles one year driving experience of light motor vehicle.
->>	Medical certificate in Form CMV 1 and 1A is necessary in case of transport vehicle."],
-         "context_set": ""
-        }
-		{"tag": "ValidityLearnerLicence",
-         "patterns": ["what is validity of learners licence?",
-		 "Period Learner licence is valid?",
-		 "For what time learner licence is valid?",
-		 "After what time learners licence expires?",
-		 "Validity of learner licence",
-		 "is learner licence valid for 6 months",
-		 "is learner licence valid for 3 months",
-		 "is learner licence valid for 4 months",
-		 "when to renew my learning licence",
-		 "what age will i get learning licence",
-		 "what age can i get learning licence?",
-		 "At what age do we get our learning licence?",
-		 ],
-         "responses": ["Learner's licence is valid for the period of 6 Months."],
-         "context_set": ""
-        }
-		{"tag": "AboutPreliminaryTest",
-         "patterns": ["What is Preliminary test?",
-		 "About Preliminary test",
-		 "What's Preliminary Test" , "Tell me something about Preliminary Test",
-		 "what do you mean by Preliminary test?","what do you mean by Preliminary test","What is Preliminary Test?",
-		 "Explain Preliminary Test."
-		 ],
-         "responses": ["Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type.
-		>>	In case of others, Oral test will be conducted.
-		>>	These tests will be conducted by the Inspector of Motor Vehicles.
-		>>	Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."],
-         "context_set": ""
-        }
-		{"tag": "SyllabusPreliminaryTest",
-         "patterns": ["What is Syllabus of Preliminary test?",
-		 "Subjects in Preliminary test",
-		 "What is the Subject in the Preliminary Test ?" , "whicch subjects are asked in Priliminary test",
-		 "syllabus for learners driving licence test",		 "Syllabus of Preliminary test"
-		 ],
-         "responses": ["Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type.
-		>>	In case of others, Oral test will be conducted.
-		>>	These tests will be conducted by the Inspector of Motor Vehicles.
-		>>	Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."],
-         "context_set": ""
-        }
-   ]
-}
+{
+	"intents": [
+	  {
+		"tag": "greeting",
+		"patterns": [
+		  "Hi",
+		  "How are you",
+		  "Is anyone there?",
+		  "Hello",
+		  "Good day",
+		  "Whats up",
+		  "hey there",
+		  "Hey there ..!!!",
+		  "Hiiii",
+		  "hello",
+		  "how are you?",
+		  "goodday...!!!",
+		  "hey bot",
+		  "Whats going on",
+		  "hey brother",
+		  "WasUp",
+		  "whats up",
+		  "anyone?",
+		  "Good morning.",
+		  "hey bot",
+		  "Good afternoon.",
+		  "Good afternoon",
+		  "Good Morning",
+		  "good morning",
+		  "Good evening.",
+		  "What’s happening",
+		  "Yo!",
+		  "Good evening",
+		  "Morning!",
+		  "How are things?",
+		  "What’s new?",
+		  "It’s good to see you.",
+		  "G’day!",
+		  "What’s up?",
+		  "How’s it going?",
+		  "Sup?",
+		  "evening",
+		  "afternoon",
+		  "morning",
+		  "It’s nice to meet you.",
+		  "It’s a pleasure to meet you."
+		],
+		"responses": [
+		  "Hello!",
+		  "Oh, just the usual.",
+		  "Oh gosh, all kinds of stuff !",
+		  "yo!",
+		  "Good to see you again!",
+		  "Hi there, how can I help?",
+		  "Pleased to meet you",
+		  "Hi",
+		  "Hey..!!!",
+		  "Yeah Listenning",
+		  "Hola...!!!",
+		  "hola",
+		  "Hello"
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "goodbye",
+		"patterns": [
+		  "cya",
+		  "See you later",
+		  "Goodbye",
+		  "I am Leaving",
+		  "Have a Good day",
+		  "see you, goodbye..!!!",
+		  "by bye",
+		  "bye"
+		],
+		"responses": [
+		  "Sad to see you go :(",
+		  "Talk to you later",
+		  "Goodbye!",
+		  "meet you soon.",
+		  "adios..!!!",
+		  "Nice to talk with you"
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "age",
+		"patterns": [
+		  "how old",
+		  "how old is tim",
+		  "what is your age",
+		  "how old are you",
+		  "age?"
+		],
+		"responses": [
+		  "I am 18 years old!",
+		  "18 years young!"
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "FeeFreshDrivingLicence",
+		"patterns": [
+		  "What is the amount of Fees payable for Issueing Fresh Driving Licence ?",
+		  "Fees for Issueing Fresh Driving Licence ?",
+		  "Fresh Driving Licence Fees?",
+		  "Fees New Driving Licence ?",
+		  "Cost of new licence",
+		  "How much for new licence",
+		  "How much rupees for new licence",
+		  "How much i have to pay to get new licence",
+		  "Fees for new driving licence",
+		  "New Licence fees",
+		  "How much shall i pay for new Licence?",
+		  "Payable amount for new licence"
+		],
+		"responses": [
+		  "Rs. 200 Smart Card Type Driving Licence Rs. 50 Towards Driving Test.",
+		  "200 rupees for Driving Licence Card 50 rupees for Driving Test."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "WhatDrivingTest",
+		"patterns": [
+		  "What is Driving Test?",
+		  "What is Driving Test",
+		  "What's Driving Test",
+		  "Tell me something about Driving Test",
+		  "what do you mean by Driving test?",
+		  "what do you mean by driving test",
+		  "What is Driving Test?",
+		  "Explain Driving Test."
+		],
+		"responses": [
+		  "The Inspector of motor vehicles will conduct the test of competence to drive vehicle as per the procedures laid down under the rule 15 of Central Motor Vehicle Rules, 1989. After satisfaction about the driving skills he will pass his recommendations about the issue of driving licence. The Asst. R.T.O. after satisfying himself will pass an order to issue driving licence."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "ValidityDrivingLicence",
+		"patterns": [
+		  "What is period of validity of Driving Licence ?",
+		  "What is time of validity of Driving Licence ?",
+		  "For what time my licence is valid?",
+		  "Validity of my licence",
+		  "Validity of my licence is for what time"
+		],
+		"responses": [
+		  ">> A licence to drive a non transport vehicle shall be effective for a period of 20 yrs. from the date of issue or renewal or the holder attains the age of 50 yrs., whichever is earlier, after that the licence is renewable for 5 years. >> Licence to drive a transport vehicle be effective for a period of three years from the date of its issue. >> An authorization of licence to drive a transport vehicle carrying goods of dangerous or Hazardous nature be effective for one year."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "MedicalCertificateLearnerLicence",
+		"patterns": [
+		  "Is it compulsory to have a medical certificate for obtaining a learner's licence?",
+		  "when do i need medical cetificate for getting learning licence?",
+		  "when do i need medical cetificate for obtaining learning licence?",
+		  "do i need medical cetificate for obtaining learning licence?",
+		  "should i have medical cetificate for obtaining learning licence?",
+		  "I need medical cetificate for obtaining learning licence?",
+		  "Is it required to have medical cetificate for obtaining learning licence?"
+		],
+		"responses": [
+		  "An applicant for the grant of a non transport vehicle driving licence under the age of 50 years do not require a medical certificate. However, those applicants who are over 50 yrs. of age must produce a medical certificate in Form - 1A. All applicants for the grant of driving licence to drive transport vehicle are required to produce a medical certificate."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "AgeLearnerLicence",
+		"patterns": [
+		  "what age can i get learners licence?",
+		  "At what age do we get our Learner licence?",
+		  "At what age on can get his learner licence?",
+		  "what age can we get learner licence?",
+		  "which age i can get my learner licence?",
+		  "what age will i get learner licence",
+		  "what age will i get learning licence",
+		  "what age can i get learning licence?",
+		  "At what age do we get our learning licence?"
+		],
+		"responses": [
+		  ">> The applicant shall have attaining the age of 16 years in case of motor cycle with engine capacity not exceeding 50 cc (motor cycle without gear). >> The consent/declaration of the parents/guardian is necessary and shall be signed before the Licencing authority. >> The applicant shall have completed the age of 18 years in case of motor cycle with gear or light motor vehicle. >> In case of transport vehicles one year driving experience of light motor vehicle. >> Medical certificate in Form CMV 1 and 1A is necessary in case of transport vehicle."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "ValidityLearnerLicence",
+		"patterns": [
+		  "what is validity of learners licence?",
+		  "Period Learner licence is valid?",
+		  "For what time learner licence is valid?",
+		  "After what time learners licence expires?",
+		  "Validity of learner licence",
+		  "is learner licence valid for 6 months",
+		  "is learner licence valid for 3 months",
+		  "is learner licence valid for 4 months",
+		  "when to renew my learning licence",
+		  "what age will i get learning licence",
+		  "what age can i get learning licence?",
+		  "At what age do we get our learning licence?"
+		  
+		],
+		"responses": [
+		  "Learner's licence is valid for the period of 6 Months."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "AboutPreliminaryTest",
+		"patterns": [
+		  "What is Preliminary test?",
+		  "About Preliminary test",
+		  "What's Preliminary Test",
+		  "Tell me something about Preliminary Test",
+		  "what do you mean by Preliminary test?",
+		  "what do you mean by Preliminary test",
+		  "What is Preliminary Test?",
+		  "Explain Preliminary Test."
+		],
+		"responses": [
+		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher. This test will be of Multiple choice objective type. >> In case of others, Oral test will be conducted. >> These tests will be conducted by the Inspector of Motor Vehicles. >> Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "SyllabusPreliminaryTest",
+		"patterns": [
+		  "What is Syllabus of Preliminary test?",
+		  "Subjects in Preliminary test",
+		  "What is the Subject in the Preliminary Test ?",
+		  "whicch subjects are asked in Priliminary test",
+		  "syllabus for learners driving licence test",
+		  "Syllabus of Preliminary test"
+		],
+		"responses": [
+		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type. >> In case of others, Oral test will be conducted. >> These tests will be conducted by the Inspector of Motor Vehicles. >> Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
+		],
+		"context_set": ""
+	  }
+	]
+  }
