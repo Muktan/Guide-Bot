@@ -233,10 +233,167 @@
 		  "What is the Subject in the Preliminary Test ?",
 		  "whicch subjects are asked in Priliminary test",
 		  "syllabus for learners driving licence test",
+		  "What is Syllabus of Learners licence test?",
+		  "What are Subjects of Learners licence test?",
+		  "What are Subjects in learners licence test?",
 		  "Syllabus of Preliminary test"
 		],
 		"responses": [
 		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type. >> In case of others, Oral test will be conducted. >> These tests will be conducted by the Inspector of Motor Vehicles. >> Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "FailedPreliminaryTest",
+		"patterns": [
+		  "What if I failed Preliminary test?",
+		  "What if FAILED in the preliminary test ?",
+		  "if I failed in learning licence test",
+		  "if I failed in preliminary test",
+		  "if I failed in priliminary test",
+		  "What if i am not able to pass priliminary test",
+		  "What if i am not able to pass preliminary test",
+		  "in case i am not able to pass learner licence test"
+		],
+		"responses": [
+		  "Application along with documents will be returned to the failed applicant and he can reappear for test on the next day onwards."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "FailedPreliminaryTest",
+		"patterns": [
+		  "What if I failed Preliminary test?",
+		  "What if FAILED in the preliminary test ?",
+		  "if I failed in learning licence test",
+		  "if I failed in preliminary test",
+		  "if I failed in priliminary test",
+		  "What if i am not able to pass priliminary test",
+		  "What if i am not able to pass preliminary test",
+		  "in case i am not able to pass learner licence test"
+		],
+		"responses": [
+		  "Application along with documents will be returned to the failed applicant and he can reappear for test on the next day onwards."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "DrivingTrainingCompulsaryMotorDrivingSchool",
+		"patterns": [
+		  "Is it compulsory to obtain Driving Training from a Motor Driving School ?",
+		  "should i learn driving from motor driving school",
+		  "is it compulsory to learn from motor diriving school",
+		  "if i dont want to learn from motor driving school is it ok?",
+		  "one should go to motor driving school ffor learning driving?",
+		  "can't one learn driving without going motor driving school"
+		],
+		"responses": [
+		  "No, in case of private or non-commercial vehicles, it is not compulsory.\n However,in case of commercial vehicles, it is compulsory because the Motor Driving School has to issue Form No.5 for commercial driving licence."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "PrecautionLearnerLicence",
+		"patterns": [
+		  "What are the precautions to be taken by a learner licence ?",
+		  "precautions to be taken by a learner licence holder?",
+		  "precautions by a learner licence holder?",
+		  "what precautions should a learner licence holder take",
+		  "what points learner licence holder should keep in mind"
+		],
+		"responses": [
+		  "The following points need to be kept in mind by a Learner's licence holder : \n >> The learner's licence holder should get training under the supervision of a Permanent driving licence holder. \n>> The learner licence holder has to display symbol -L in a Red color that should be visible from a distance. \n >>In case of commercial vehicle, the learner licensee has to under go training either from Government Motor Driving School or Motor Driving Schools authorized by the State Government. \n >> In addition to practical training, the learner's license holder should also learn about the vehicles' mechanism, road symbols or signs etc. \n >> If you are learning how to drive a two-wheeler, you cannot carry any other person on the pillion except your instructor."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "BringOtherStateVehicleGujarat",
+		"patterns": [
+		  "What I have to do when I bring an other state vehicle to Gujarat State?",
+		  "what if i bring a vehicle from another state",
+		  "how to register outstate vehicle",
+		  "if i have outstate vehicle",
+		  "What if i bring a vehicle from out state in gujarat",
+		  "What to do after bringing an outstate vehicle to gujarat",
+		  "Steps i nneed to follow when i bring vehicle from outer state",
+		  "Steps i nneed to follow when i bring vehicle from other state",
+		  "what to do when bringing vehicle from other state"
+		],
+		"responses": [
+		  "If the vehicle is purchased from outside state bearing other state registration mark then Transfer of ownership has to be intimated within 30 days.Before using the vehicle in the state of Gujarat you should pay Motor vehicle Tax. To know about this, The first thing to do is to approach is, visit RTOs along with the Original Registration Certificate, Insurance and Emission Testing Certificate.You approach the Help Desk or the Public relation officer, who will guide to the concerned officer/counter At the counter you will be guided about the procedure, forms to be filed, tax and fees to be paid. The tax to be paid will be assessed on the basis of the age and cubic capacity of the vehicle as on the date of migration in respect of cars and motorcycles."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "NOCTaxPaymennt",
+		"patterns": [
+		  "Whether NOC (NO objection Certificate) is required for payment of Tax?",
+		  "Whether NOC is required for payment of Tax?",
+		  "Whether NO objection Certificate is required for payment of Tax?",
+		  "NOC is required for payment of Tax",
+		  "is NOC required for payment of Tax",
+		  "is NOC required for Tax Payment"
+		],
+		"responses": [
+		  "NOC is not a requirement for payment of tax ."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "RequirementNOCandNDC",
+		"patterns": [
+		  "When an NOC (NO objection Certificate) and an NDC (No Due Certificate) are required?",
+		  "When an NO objection Certificate and an No Due Certificate are required?",
+		  "When NOC is required",
+		  "When NDC is required",
+		  "Requirement of NOC and NDC",
+		  "Requirement of NOC",
+		  "Requirement of NDC"
+		],
+		"responses": [
+		  "NOC is required When you want to obtain Gujarat Registration Mark in respect of an other state vehicle. NDC is required When transfer of ownership is to be recorded in the certificate of Registration in respect of an other Region/Distric vehicle.."
+		],
+		"context_set": ""
+	  },
+	  {
+		"tag": "PenaltyPUC",
+		"patterns": [
+		  "What is the penalty for not having the pollution certificate?",
+		  "What is the penalty for not having PUC",
+		  "penalty for not having PUC",
+		  "What if I don't have a PUC",
+		  "What if I don't have a puc"
+		],
+		"responses": [
+		  "A vehicle, not carrying a valid PUC Certificate is liable to be prosecuted under Section 190(2) of the Motor Vehicles Act. A penalty of Rs. _______ - for first offence and Rs. ______- for every subsequent offence of violation has been provided."
+		],
+		"context_set": ""
+	  }
+	  ,
+	  {
+		"tag": "WhereCheckPollutionLevel",
+		"patterns": [
+		  "Where should I get my vehicle pollution level checked?",
+		  "where to check vehicle pollution level",
+		  "Where shall i check my pollution level"
+		],
+		"responses": [
+		  "Computerised facilities for checking of pollution levels and issue of PUC Certificates (to vehicles meeting emission standards) are available at many petrol pumps/workshops. These authorised Pollution Checking Centres are spread all over Gujarat. At present, 410 Centres for petrol / CNG driven vehicles and 231 Centres for the diesel driven vehicles are functioning. Theses centres issue Pollution Under Control Certificates (PUC) if the vehicle is found meeting prescribed emission norms. In case the vehicle is found polluting beyond prescribed norms, necessary repairs/ tuning in the vehicle would be required."
+		],
+		"context_set": ""
+	  }
+	  ,
+	  {
+		"tag": "FeesCheckingPUC",
+		"patterns": [
+		  "What are the fees for pollution checking?",
+		  "Fees  for pollution checking",
+		  "What are fees of pollution level checking",
+		  "What amount i have to pay to check my vehicles pollution level",
+		  "Amount need to check vehicle pollution level"
+		],
+		"responses": [
+		  "Following fees for pollution checking including minor rectifications, if required have been fixed by the Government: - \n Petrol / CNG / LPG vehicle - Two &Three Wheeler Rs. 25 - Four Wheeler Rs.50 Diesel vehicle Rs. 100"
 		],
 		"context_set": ""
 	  }
