@@ -118,16 +118,26 @@ def hello ():
     lang = "en"
     speech = Speech(text, lang)
     sox_effects = ("speed", "0.9")
-    speech.play(sox_effects)
     tokens = [t for t in text.split()]
     print(tokens)
-    freq = nltk.FreqDist(tokens)
+    #freq = nltk.FreqDist(tokens)
     checker=""
-    for key,val in freq.items():
+    i=0
+    for key in tokens:
         checker+=key+" "
-        print(str(key) + ':' + str(val))
-    label1 = tk.Label(root, text= checker, fg='green', font=('helvetica', 12, 'bold'))
-    canvas1.create_window(150, 200, window=label1)
+        print(str(key))
+        i+=1
+        if(i%10==0):
+            checker+="\n"
+    frame = tk.Frame(root,width=1000,height=500)
+    label1 = tk.Label(frame)
+    label1['text']=" "
+    button1 = tk.Button(frame,text='Ask Me',command=hello, bg='brown',fg='white')
+    label1 = tk.Label(frame, text= checker, bg="yellow", fg='green', font=('helvetica', 12, 'bold'))
+    button1.place(x=500,y=150,anchor="center")
+    label1.place(x=500,y=250,anchor="center")
+    canvas1.create_window(150, 200, window=frame)
+    speech.play(sox_effects)
     
 button1 = tk.Button(text='Click Me',command=hello, bg='brown',fg='white')
 canvas1.create_window(150, 150, window=button1)
