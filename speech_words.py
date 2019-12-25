@@ -10,6 +10,7 @@ import json
 import pickle
 import urllib.request
 import nltk
+nltk.download('punkt')
 import speech_recognition as sr
 from google_speech import Speech   
 canvas1 = tk.Canvas(root, width = 300, height = 300)
@@ -69,14 +70,14 @@ with open("data.pickle", "wb") as f:
 tensorflow.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(training[0])])
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 32)
+net = tflearn.fully_connected(net, 32)
 net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
 
-model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
+model.fit(training, output, n_epoch=1000, batch_size=10, show_metric=True)
 def hello ():  
     r = sr.Recognizer()                                                                                   
     with sr.Microphone() as source:                                
