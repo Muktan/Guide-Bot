@@ -142,6 +142,3 @@ def hello ():
 button1 = tk.Button(text='Click Me',command=hello, bg='brown',fg='white')
 canvas1.create_window(150, 150, window=button1)
 root.mainloop()
-'''
-set PATH=%PATH%;C:\Program Files (x86)\sox-14-4-2
-'''

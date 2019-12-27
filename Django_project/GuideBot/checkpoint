@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Deepang\\OneDrive\\Desktop\\Guide-Bot\\Django_project\\GuideBot\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\Deepang\\OneDrive\\Desktop\\Guide-Bot\\Django_project\\GuideBot\\model.tflearn"

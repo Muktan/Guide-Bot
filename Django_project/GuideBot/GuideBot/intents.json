@@ -48,7 +48,6 @@
 		  "Hello!",
 		  "Oh, just the usual.",
 		  "Oh gosh, all kinds of stuff !",
-		  "yo!",
 		  "Good to see you again!",
 		  "Hi there, how can I help?",
 		  "Pleased to meet you",
@@ -56,7 +55,6 @@
 		  "Hey..!!!",
 		  "Yeah Listenning",
 		  "Hola...!!!",
-		  "hola",
 		  "Hello"
 		],
 		"context_set": ""
@@ -78,23 +76,19 @@
 		  "Talk to you later",
 		  "Goodbye!",
 		  "meet you soon.",
-		  "adios..!!!",
 		  "Nice to talk with you"
 		],
 		"context_set": ""
 	  },
 	  {
-		"tag": "age",
+		"tag": "creators",
 		"patterns": [
-		  "how old",
-		  "how old is tim",
-		  "what is your age",
-		  "how old are you",
-		  "age?"
+		  "Who are your creators",
+		  "how were you created",
+		  "creators?"
 		],
 		"responses": [
-		  "I am 18 years old!",
-		  "18 years young!"
+		  "I am created by Deepang, Muktan, Vyom, Utsav and Sachin."
 		],
 		"context_set": ""
 	  },
@@ -115,7 +109,7 @@
 		  "Payable amount for new licence"
 		],
 		"responses": [
-		  "Rs. 200 Smart Card Type Driving Licence Rs. 50 Towards Driving Test.",
+		  "Rupees. 200 Smart Card Type Driving Licence Rupees. 50 Towards Driving Test.",
 		  "200 rupees for Driving Licence Card 50 rupees for Driving Test."
 		],
 		"context_set": ""
@@ -147,7 +141,7 @@
 		  "Validity of my licence is for what time"
 		],
 		"responses": [
-		  ">> A licence to drive a non transport vehicle shall be effective for a period of 20 yrs. from the date of issue or renewal or the holder attains the age of 50 yrs., whichever is earlier, after that the licence is renewable for 5 years. >> Licence to drive a transport vehicle be effective for a period of three years from the date of its issue. >> An authorization of licence to drive a transport vehicle carrying goods of dangerous or Hazardous nature be effective for one year."
+		  " A licence to drive a non transport vehicle shall be effective for a period of 20 yrs. from the date of issue or renewal or the holder attains the age of 50 yrs., whichever is earlier, after that the licence is renewable for 5 years.  Licence to drive a transport vehicle be effective for a period of three years from the date of its issue.  An authorization of licence to drive a transport vehicle carrying goods of dangerous or Hazardous nature be effective for one year."
 		],
 		"context_set": ""
 	  },
@@ -181,7 +175,7 @@
 		  "At what age do we get our learning licence?"
 		],
 		"responses": [
-		  ">> The applicant shall have attaining the age of 16 years in case of motor cycle with engine capacity not exceeding 50 cc (motor cycle without gear). >> The consent/declaration of the parents/guardian is necessary and shall be signed before the Licencing authority. >> The applicant shall have completed the age of 18 years in case of motor cycle with gear or light motor vehicle. >> In case of transport vehicles one year driving experience of light motor vehicle. >> Medical certificate in Form CMV 1 and 1A is necessary in case of transport vehicle."
+		  " The applicant shall have attaining the age of 16 years in case of motor cycle with engine capacity not exceeding 50 cc (motor cycle without gear).  The consent/declaration of the parents/guardian is necessary and shall be signed before the Licencing authority.  The applicant shall have completed the age of 18 years in case of motor cycle with gear or light motor vehicle.  In case of transport vehicles one year driving experience of light motor vehicle.  Medical certificate in Form CMV 1 and 1A is necessary in case of transport vehicle."
 		],
 		"context_set": ""
 	  },
@@ -220,7 +214,7 @@
 		  "Explain Preliminary Test."
 		],
 		"responses": [
-		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher. This test will be of Multiple choice objective type. >> In case of others, Oral test will be conducted. >> These tests will be conducted by the Inspector of Motor Vehicles. >> Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
+		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher. This test will be of Multiple choice objective type.  In case of others, Oral test will be conducted.  These tests will be conducted by the Inspector of Motor Vehicles.  Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
 		],
 		"context_set": ""
 	  },
@@ -238,7 +232,7 @@
 		  "Syllabus of Preliminary test"
 		],
 		"responses": [
-		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type. >> In case of others, Oral test will be conducted. >> These tests will be conducted by the Inspector of Motor Vehicles. >> Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
+		  "Written test will be conducted for the persons who have passed SSLC or equivalent examination or higher . This test will be of Multiple choice objective type.  In case of others, Oral test will be conducted.  These tests will be conducted by the Inspector of Motor Vehicles.  Applicants who are already having driving licence from any state government licensing authority or defence licensing authority or any abroad licensing authority."
 		],
 		"context_set": ""
 	  },
@@ -301,7 +295,7 @@
 		  "what points learner licence holder should keep in mind"
 		],
 		"responses": [
-		  "The following points need to be kept in mind by a Learner's licence holder : \n >> The learner's licence holder should get training under the supervision of a Permanent driving licence holder. \n>> The learner licence holder has to display symbol -L in a Red color that should be visible from a distance. \n >>In case of commercial vehicle, the learner licensee has to under go training either from Government Motor Driving School or Motor Driving Schools authorized by the State Government. \n >> In addition to practical training, the learner's license holder should also learn about the vehicles' mechanism, road symbols or signs etc. \n >> If you are learning how to drive a two-wheeler, you cannot carry any other person on the pillion except your instructor."
+		  "The following points need to be kept in mind by a Learner's licence holder : \n  The learner's licence holder should get training under the supervision of a Permanent driving licence holder. \n The learner licence holder has to display symbol -L in a Red color that should be visible from a distance. \n In case of commercial vehicle, the learner licensee has to under go training either from Government Motor Driving School or Motor Driving Schools authorized by the State Government. \n  In addition to practical training, the learner's license holder should also learn about the vehicles' mechanism, road symbols or signs etc. \n  If you are learning how to drive a two-wheeler, you cannot carry any other person on the pillion except your instructor."
 		],
 		"context_set": ""
 	  },
@@ -364,7 +358,7 @@
 		  "What if I don't have a puc"
 		],
 		"responses": [
-		  "A vehicle, not carrying a valid PUC Certificate is liable to be prosecuted under Section 190(2) of the Motor Vehicles Act. A penalty of Rs. _______ - for first offence and Rs. ______- for every subsequent offence of violation has been provided."
+		  "A vehicle, not carrying a valid PUC Certificate is liable to be prosecuted under Section 190(2) of the Motor Vehicles Act. A penalty of Rupees. _______ - for first offence and Rupees. ______- for every subsequent offence of violation has been provided."
 		],
 		"context_set": ""
 	  }
@@ -392,7 +386,7 @@
 		  "Amount need to check vehicle pollution level"
 		],
 		"responses": [
-		  "Following fees for pollution checking including minor rectifications, if required have been fixed by the Government: - \n Petrol / CNG / LPG vehicle - Two &Three Wheeler Rs. 25 - Four Wheeler Rs.50 Diesel vehicle Rs. 100"
+		  "Following fees for pollution checking including minor rectifications, if required have been fixed by the Government: - \n Petrol / CNG / LPG vehicle - Two &Three Wheeler Rupees. 25 - Four Wheeler Rupees.50 Diesel vehicle Rupees. 100"
 		],
 		"context_set": ""
 	  },
@@ -431,8 +425,8 @@
 			"tag": "SubmitAadhar",
 			"patterns": [
 				"Is it necessary to submit Aadhaar in Bank while transaction amount is INR 50,000 or above?",
-				"Transaction amount is 50000 rs. Is it necessary to submit to Aadhar in Bank?",
-				"Transaction amount is more than 50000 rs. Is it necessary to submit to Aadhar in Bank?"
+				"Transaction amount is 50000 Rupees. Is it necessary to submit to Aadhar in Bank?",
+				"Transaction amount is more than 50000 Rupees. Is it necessary to submit to Aadhar in Bank?"
 			],
 			"responses": [
 				"As per gazette notification of Ministry of Finance, dated 1st June 2017, Aadhaar will be sought for all transactions for an amount INR 50,000 or above."
@@ -517,15 +511,6 @@
 			],
 			"responses" : [
 				"Enrolment of Residents is done by capturing their Demographic and Biometric data."
-			]
-		},
-		{
-			"tag" : "DocumentsinAadhar",
-			"patterns" : [
-				"What are the documents required in Aadhar?",
-				"Documents to submit Aadhar",
-				"Documents to enroll Aadhar",
-				"Documents for apply in Aadhar"
 			]
 		},
 		{
